@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Браузер">
+        <SwitchPreferenceCompat
+            android:key="desktop_mode"
+            android:title="Десктопный режим"
+            android:summary="Представляться как Chrome на Windows (нужно для WhatsApp Web и др.)"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Прокси">
+        <SwitchPreferenceCompat
+            android:key="autostart_proxy"
+            android:title="@string/autostart_proxy"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/theme">
+        <ListPreference
+            android:key="theme"
+            android:title="@string/theme"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="system"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Данные">
+        <Preference
+            android:key="clear_history"
+            android:title="@string/clear_history" />
+
+        <Preference
+            android:key="clear_all_data"
+            android:title="Очистить все данные"
+            android:summary="Удалит все серверы, сервисы и историю" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+        <Preference
+            android:key="app_version"
+            android:title="@string/app_version" />
+
+        <Preference
+            android:key="check_updates"
+            android:title="Проверить наличие обновлений" />
+
+        <Preference
+            android:key="singbox_version"
+            android:title="@string/singbox_version" />
+
+        <Preference
+            android:key="singbox_logs"
+            android:title="@string/singbox_logs" />
+
+        <PreferenceCategory android:layout="@null" />
+
+        <Preference
+            android:key="github_link"
+            android:title="github.com/garik128/CheburGate"
+            android:summary="© garik128" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

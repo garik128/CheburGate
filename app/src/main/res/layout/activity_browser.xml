@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="?attr/colorSurface"
+        android:elevation="4dp">
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_home"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Home" />
+
+        <TextView
+            android:id="@+id/tvCurrentUrl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textSize="13sp"
+            android:textColor="?attr/colorOnSurface"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground" />
+
+        <!-- Иконка сайта — ведёт на стартовую страницу сервиса -->
+        <ImageButton
+            android:id="@+id/btnSiteIcon"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_service_default"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Site home" />
+
+        <ImageButton
+            android:id="@+id/btnRefreshNav"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/stat_notify_sync"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/refresh" />
+
+        <FrameLayout
+            android:id="@+id/btnTabsContainer"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/bookmarks">
+
+            <TextView
+                android:id="@+id/tvTabCount"
+                android:layout_width="20dp"
+                android:layout_height="17dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_tab_button"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:text="0"
+                android:textColor="@color/icon_normal" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.MaterialComponents.LinearProgressIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/layoutUrlBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:background="?attr/colorSurface">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etUrl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textUri"
+            android:imeOptions="actionGo"
+            android:hint="@string/enter_url" />
+
+        <Button
+            android:id="@+id/btnGo"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<FrameLayout
+    android:id="@+id/flFullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:visibility="gone" />
+
+</FrameLayout>

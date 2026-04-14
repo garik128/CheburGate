@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/widgetIcon1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_service_default"
+        android:padding="4dp" />
+
+    <ImageView
+        android:id="@+id/widgetIcon2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_service_default"
+        android:padding="4dp" />
+
+    <ImageView
+        android:id="@+id/widgetIcon3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_service_default"
+        android:padding="4dp" />
+
+    <ImageView
+        android:id="@+id/widgetIcon4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_service_default"
+        android:padding="4dp" />
+
+</LinearLayout>

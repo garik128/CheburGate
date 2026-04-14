@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">CheburGate</string>
+    <string name="proxy_active">CheburGate активен</string>
+    <string name="proxy_stopped">Прокси остановлен</string>
+    <string name="proxy_starting">Запускается…</string>
+    <string name="proxy_error">Ошибка прокси</string>
+    <string name="add_service">Добавить сервис</string>
+    <string name="edit_service">Редактировать</string>
+    <string name="save">Сохранить</string>
+    <string name="invalid_url">Неверный URL (нужен https://)</string>
+    <string name="service_name">Название</string>
+    <string name="service_url">URL</string>
+    <string name="cancel">Отмена</string>
+    <string name="add">Добавить</string>
+    <string name="hide_service">Удалить</string>
+    <string name="servers">Серверы</string>
+    <string name="settings">Настройки</string>
+    <string name="history">История</string>
+    <string name="no_active_server">Нет активного сервера</string>
+    <string name="stop_proxy">Отключить прокси</string>
+    <string name="proxy_not_running">Прокси не запущен — выберите рабочий сервер</string>
+    <string name="add_server">Добавить сервер</string>
+    <string name="edit_server">Редактировать сервер</string>
+    <string name="paste_link">Вставить ссылку</string>
+    <string name="from_clipboard">Имопрт из буфера</string>
+    <string name="wrong_link_format">Неверный формат ссылки</string>
+    <string name="export_all">Экспортировать все</string>
+    <string name="import_servers">Импортировать</string>
+    <string name="check_all">Проверить все</string>
+    <string name="make_active">Сделать активным</string>
+    <string name="delete">Удалить</string>
+    <string name="ping">Ping</string>
+    <string name="copy_url">Скопировать URL</string>
+    <string name="open_url_bar">Открыть строку адреса</string>
+    <string name="refresh">Обновить</string>
+    <string name="retry">Повторить</string>
+    <string name="clear_history">Очистить историю</string>
+    <string name="clear_history_done">История очищена</string>
+    <string name="reset_services">Сбросить список сервисов</string>
+    <string name="about">О приложении</string>
+    <string name="app_version">Версия приложения</string>
+    <string name="singbox_version">Версия sing-box</string>
+    <string name="singbox_logs">Логи sing-box</string>
+    <string name="theme">Тема</string>
+    <string name="autostart_proxy">Автозапуск при открытии</string>
+    <string-array name="theme_entries">
+        <item>Системная</item>
+        <item>Светлая</item>
+        <item>Темная</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+    <string name="manually">Вручную</string>
+    <string name="via_link">Ссылка</string>
+    <string name="address">Адрес</string>
+    <string name="port">Порт</string>
+    <string name="uuid">UUID</string>
+    <string name="flow">Flow</string>
+    <string name="transport">Transport</string>
+    <string name="security">Security</string>
+    <string name="public_key">Public Key</string>
+    <string name="short_id">Short ID</string>
+    <string name="sni">SNI</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="path">Path</string>
+    <string name="password">Пароль</string>
+    <string name="insecure">Insecure (пропустить проверку)</string>
+    <string name="servers_imported">Добавлено серверов: %d</string>
+    <string name="copied">Скопировано</string>
+    <string name="switch_server">Переключить сервер</string>
+    <string name="enter_url">Введите URL</string>
+    <string name="go">Перейти</string>
+    <string name="add_server_hint">Поддерживаются vless:// (tcp и xhttp) и hysteria2://</string>
+    <string name="bookmarks">Закладки</string>
+</resources>

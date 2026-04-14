@@ -1,0 +1,41 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.jks
+
+# IDE и служебные папки
+.kotlin/
+.vscode/
+
+# Конфиденциальные и локальные файлы
+CLAUDE.md
+todo.md
+links.txt
+log.txt
+*.log
+*.hprof
+.env
+.env.local
+
+# Sing-box бинарники (слишком большие, скачиваются отдельно)
+app/src/main/assets/singbox/
+
+# Скомпилированные APK/AAB (публикуются в Releases)
+app/release/*.apk
+app/release/*.aab
+app/release/baselineProfiles/
+
+# История редактора VS Code
+.history/

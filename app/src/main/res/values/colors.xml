@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="secondary">#C62828</color>
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="proxy_stopped">#9E9E9E</color>
+    <color name="proxy_starting">#FFA000</color>
+    <color name="proxy_running">#2E7D32</color>
+    <color name="proxy_error">#C62828</color>
+
+    <color name="ping_good">#2E7D32</color>
+    <color name="ping_ok">#F57F17</color>
+    <color name="ping_bad">#C62828</color>
+    <color name="ping_none">#9E9E9E</color>
+
+    <color name="icon_normal">#212121</color>
+</resources>

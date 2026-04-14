@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M0,8 A8,8 0 0,1 8,0 L40,0 A8,8 0 0,1 48,8 L48,40 A8,8 0 0,1 40,48 L8,48 A8,8 0 0,1 0,40 Z" />
+
+    <!-- Globe circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,10 A14,14 0 1,0 24,38 A14,14 0 0,0 24,10 Z M24,12 A12,12 0 0,1 36,24 A12,12 0 0,1 24,36 A12,12 0 0,1 12,24 A12,12 0 0,1 24,12 Z" />
+
+    <!-- Horizontal lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,20.25h24v1.5h-24z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,26.25h24v1.5h-24z" />
+
+    <!-- Vertical line -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M23.25,12h1.5v24h-1.5z" />
+
+    <!-- Left curve approximation -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M24,12 C20,16 18,20 18,24 C18,28 20,32 24,36" />
+
+    <!-- Right curve approximation -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M24,12 C28,16 30,20 30,24 C30,28 28,32 24,36" />
+</vector>

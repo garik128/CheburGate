@@ -1,0 +1,17 @@
+# Градле и бинарники
+*.gradle linguist-language=Kotlin
+*.gradle.kts linguist-language=Kotlin
+*.jar binary
+*.aar binary
+
+# Картинки и ресурсы
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg text diff=exif
+
+# Другое
+*.md diff=markdown
+*.json diff=json
